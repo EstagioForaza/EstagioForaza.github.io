@@ -18,9 +18,12 @@
 
 /*Configura a logo do cabeçalho*/
 #logo{
-    min-height: 75px;
-    max-height: 100px;
-    margin-left: 50vw;
+    max-height: 75px;
+    margin-left: 35vw;
+}
+
+header{
+    background: var(--cor-primaria);
 }
 
 /*Configura e estiliza a barra lateral e seus itens*/
