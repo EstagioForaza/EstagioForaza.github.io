@@ -1,5 +1,5 @@
 :root{
-    --cor-primaria: #00BCD4;
+    --cor-primaria: linear-gradient(#4284FB, #4284FB);
     --cor-secundaria: white;
 }
 
@@ -16,9 +16,16 @@
     z-index: 1;
 }
 
+/*Configura a logo do cabeçalho*/
+#logo{
+    min-height: 75px;
+    max-height: 100px;
+    margin-left: 50vw;
+}
+
 /*Configura e estiliza a barra lateral e seus itens*/
 .barra{
-    background-color: var(--cor-primaria);
+    background: var(--cor-primaria);
     height: 100%;
     width: 300px;
     position: absolute;
