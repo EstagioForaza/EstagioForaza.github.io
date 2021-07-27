@@ -1,3 +1,8 @@
+:root{
+    --cor-primaria: #00BCD4;
+    --cor-secundaria: white;
+}
+
 /*Remove o checkbox do menu*/
 #check{
     display: none;
@@ -13,7 +18,7 @@
 
 /*Configura e estiliza a barra lateral e seus itens*/
 .barra{
-    background-color: darkblue;
+    background-color: var(--cor-primaria);
     height: 100%;
     width: 300px;
     position: absolute;
