@@ -1,6 +1,7 @@
 :root{
     --cor-primaria: linear-gradient(#4284FB, #4284FB);
     --cor-secundaria: white;
+    --cor-hover: darkcyan;
 }
 
 /*Remove o checkbox do menu*/
@@ -58,7 +59,7 @@ nav a{
 }
 
 .link:hover{
-    background: var(--cor-secundaria);
+    background: var(--cor-hover);
 }
 
 /*Animação do menu*/
