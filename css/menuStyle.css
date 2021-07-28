@@ -1,6 +1,7 @@
 :root{
     --cor-primaria: linear-gradient(#4284FB, #4284FB);
     --cor-secundaria: white;
+    --cor-hover: darkcyan;
 }
 
 /*Remove o checkbox do menu*/
@@ -37,6 +38,10 @@ header{
     left: -300px;
 }
 
+.barra ul{
+    list-style: none;
+}
+
 nav{
     width: 100%;
     position: absolute;
@@ -54,14 +59,33 @@ nav a{
     font-size: 12pt;
     transition: all 0.2s linear;
     color: var(--cor-secundaria);
-    border-bottom: 2px solid var(--cor-secundaria);
 }
 
 .link:hover{
-    background: var(--cor-secundaria);
+    background: var(--cor-hover);
 }
 
 /*Animação do menu*/
 #check:checked ~ .barra{
     transform: translateX(300px);
+}
+
+#cursos{
+    position: absolute;
+}
+
+.sub-menu{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+    transition: all 0.2s linear;
+    color: var(--cor-secundaria);
+}
+
+.sub-menu:hover{
+    background: var(--cor-hover);
+}
+
+.sub-menu label{
+    padding: 100%;
 }
