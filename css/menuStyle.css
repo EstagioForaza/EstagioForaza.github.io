@@ -48,8 +48,7 @@ nav a{
 
 }
 
-.link{
-    background-color:darkcyan;
+.link{    
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 12pt;
@@ -59,7 +58,7 @@ nav a{
 }
 
 .link:hover{
-    background-color: green;
+    background: var(--cor-secundaria);
 }
 
 /*Animação do menu*/
