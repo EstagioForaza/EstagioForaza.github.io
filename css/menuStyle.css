@@ -69,23 +69,3 @@ nav a{
 #check:checked ~ .barra{
     transform: translateX(300px);
 }
-
-#cursos{
-    position: absolute;
-}
-
-.sub-menu{
-    padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12pt;
-    transition: all 0.2s linear;
-    color: var(--cor-secundaria);
-}
-
-.sub-menu:hover{
-    background: var(--cor-hover);
-}
-
-.sub-menu label{
-    padding: 100%;
-}
