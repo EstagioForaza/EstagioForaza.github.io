@@ -15,6 +15,15 @@ main{
     width: 600px;
     height: 400px;
     margin-top: 75px;
+    margin-left: 1vw;
+    margin-bottom: 10px;
+}
+
+#titulo-sobre-nos{
+    font-family: Copperplate, fantasy;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 70vw;
 }
 
 #sobre-nos{
@@ -22,7 +31,15 @@ main{
     font-size: 20px;
     display: block;
     text-align: left;
-    margin-left: 45vw;
-    margin-top: 250px;
+    margin-left: 50vw;
+    margin-top: 245px;
     position: absolute;
+}
+
+#saiba-sobre-nos{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 70vw;
+    padding: 10px;
+    border-radius: 10px;
 }
