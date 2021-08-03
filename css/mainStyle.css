@@ -10,7 +10,7 @@ main{
     align-items: center;
 }
 
-/*Configura a citação e o texto "sobre nós"*/
+/*Configura a seção "sobre nós"*/
 #paulo-freire{
     width: 600px;
     height: 400px;
@@ -43,3 +43,5 @@ main{
     padding: 10px;
     border-radius: 10px;
 }
+
+/*Configura a seção "Motivos para estudar na FACONNECT*/
