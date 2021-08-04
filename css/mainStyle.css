@@ -1,33 +1,79 @@
+:root{
+    --background: rgb(240, 240, 240);
+    --fundo-azul: linear-gradient(#4284FB, #4284FB);
+    --orange: #FF8C00;
+}
+
 /*Configura as margens e o fundo do site*/
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background: white;
+    background: var(--background);
 }
 main{
     align-items: center;
+}
+
+/*Configura as bordas das imagens*/
+img{
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+/*Configura links, listas, títulos e parágrafos*/
+a, h1, h2, h3, h4, h5, h6, li, p{
+    font-family: Montserrat,sans-serif;
+}
+
+/*Configura os botões*/
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: var(--orange);
+    color: white;
+}
+
+/*Configura o fundo azul*/
+.fundo-azul{
+    background: var(--fundo-azul);
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+}
+
+/*Configura a classe para centralizar os textos*/
+.center{
+    text-align: center;
+}
+
+/*Configura a classe para limpar o fluxo do float*/
+.clear{
+    clear: both;
 }
 
 /*Configura a seção "sobre nós"*/
 #paulo-freire{
     width: 600px;
     height: 400px;
-    margin-top: 75px;
+    margin-top: 90px;
     margin-left: 1vw;
     margin-bottom: 10px;
 }
 
-#titulo-sobre-nos{
-    font-family: Copperplate, fantasy;
-    position: absolute;
-    margin-top: 215px;
-    margin-left: 70vw;
+#sobre-nos{
+    margin-bottom: 5vh;
 }
 
-#sobre-nos{
-    font-family: 'Times New Roman', Times, serif;
+#titulo-sobre-nos{
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 68vw;
+}
+
+#texto-sobre-nos{
     font-size: 20px;
     display: block;
     text-align: left;
@@ -40,8 +86,76 @@ main{
     position: absolute;
     margin-top: 370px;
     margin-left: 70vw;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 /*Configura a seção "Motivos para estudar na FACONNECT*/
+#titulo-estude-conosco{
+    margin: 10px;
+}
+
+#lista-estude-conosco{
+    list-style-type: disc;
+    width: 50%;
+    margin-left: 5vw;
+}
+
+#lista-estude-conosco li{
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+#img-estude-conosco{
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-right: 7vw;
+    margin-bottom: 5vh;
+}
+
+#conteudo-estude-conosco button{
+    margin-left: 25vw;
+    margin-bottom: 5vh;
+}
+
+/*Configura a seção "Qualidade do ensino*/
+#qualidade-ensino{
+    height: 370px;
+}
+
+#conteudo-qualidade-ensino{
+    margin-left: 35%;
+    margin-top: 150px;
+    position: absolute;
+    width: 600px;
+}
+
+#conteudo-qualidade-ensino h2{
+    margin-left: 28%;
+    margin-bottom: 10px;
+}
+
+#img-qualidade-ensino{
+    width: 200px;
+    height: 300px; 
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 5vw;
+}
+
+/*Configura a seção "Seja um parceiro FACONNECT*/
+#parceria{
+    height: 200px;
+}
+
+#conteudo-parceria{
+    width: 600px;
+    margin-left: 12vw;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#parceria button{
+    float: right;
+    margin-top: 70px;
+    margin-right: 25vw;
+}
